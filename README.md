@@ -1,5 +1,7 @@
 ### Brief
-Simple Python3 TCP port scanner. Usage: python3 portscanner.py [-p, -T] `<ip or domain target>`
+Simple Python3 TCP port scanner. Outputs open ports with associated port and banner info if possible to retrieve.
+
+#### Usage: python3 portscanner.py [-p, -T] `<ip or domain target>`
 
 ### Command line options
 #### -p --port `<port>` OR `<port1>,<port2>`... OR `<startPort-endPort>` (required)

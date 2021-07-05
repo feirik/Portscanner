@@ -84,4 +84,3 @@ def scan_port(ipaddress, port, timeout):
             print('[+] Port ' + str(port) + ' (' + portinfo.get_port_info(port) + ') open')
     except:
         pass
-        print('[-] Port ' + str(port) + ' is closed')
